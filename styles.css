@@ -7,7 +7,7 @@
 
 /* Style the body */
 body {
-  background-color: #66275e;
+  background-color: #662746;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -30,7 +30,7 @@ body {
   --width: 100px;
 
   background-color: white;
-  border: 1px solid #333;
+  border: 2px solid #3b0000;
 }
 
 .black {
@@ -43,9 +43,9 @@ body {
 }
 
 .white.active {
-  background-color: #ccc;
+  background-color: #d6bdbd;
 }
 
 .black.active {
-  background-color: #333;
+  background-color: #3a3434;
 }

@@ -47,6 +47,10 @@ document.addEventListener('keydown', (e) => {
   const whiteKeyIndex = WHITE_KEYS.indexOf(key);
   const blackKeyIndex = BLACK_KEYS.indexOf(key);
 
+  ///if key held down, don't play again"
+   if (e.repeat) {
+    return;
+  }
   if (whiteKeyIndex > -1) {
     playNote(whiteKeys[whiteKeyIndex]);
   }

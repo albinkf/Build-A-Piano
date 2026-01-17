@@ -37,7 +37,15 @@ body {
   --width: 60px;
   
   background-color: black;
-  margin-left: -30px;
-  margin-right: -30px;
+  margin-left: calc(var(--width)/-2);
+  margin-right: calc(var(--width)/-2);
   z-index: 2;
+}
+
+.white.active {
+  background-color: #ccc;
+}
+
+.black.active {
+  background-color: #333;
 }
